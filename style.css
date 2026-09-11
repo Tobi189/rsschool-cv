@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+footer img{
+    width: 100px;
+    height: auto;
+}
