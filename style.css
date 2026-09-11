@@ -3,12 +3,42 @@ body{
     font-family: Arial, sans-serif;
 }
 
-main{
-    padding: 20px;
+main {
+    max-width: 900px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 footer img{
     width: 100px;
     height: auto;
+}
+
+
+/* navigation */
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+nav a:hover {
+    color: #8fc7ff;
+    background-color: #f0f4f8;
 }
