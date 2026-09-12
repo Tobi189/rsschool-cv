@@ -9,11 +9,6 @@ main {
     padding: 20px;
 }
 
-footer img{
-    width: 100px;
-    height: auto;
-}
-
 
 /* navigation */
 
@@ -61,4 +56,27 @@ nav a:hover {
 #contacts a:hover {
     color: #8fc7ff;
     background-color: #f0f4f8;
+}
+
+/* footer */
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer img {
+    width: 80px;
+    height: auto;
+}
+
+.course-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
