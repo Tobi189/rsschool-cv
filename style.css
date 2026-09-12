@@ -85,3 +85,17 @@ footer img {
 pre {
     overflow-x: auto;
 }
+
+/* about */
+#about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5%;
+}
