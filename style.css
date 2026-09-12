@@ -42,3 +42,23 @@ nav a:hover {
     color: #8fc7ff;
     background-color: #f0f4f8;
 }
+
+/* contacts */
+
+#contacts img{
+    height:20px;
+    width:auto;
+}
+
+#contacts a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+#contacts a:hover {
+    color: #8fc7ff;
+    background-color: #f0f4f8;
+}
