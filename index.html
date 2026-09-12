@@ -60,10 +60,115 @@
 
         <section id="code">
             <h2>Code Example</h2>
+            
+            <h3>Multiples of 3 or 5</h3>
+
+            <p>
+                This solution uses arithmetic-series sums and the
+                inclusion-exclusion principle to avoid iteration.
+            </p>
+
+            <pre><code>
+                function solution(number){
+                    if(number < 0) return +0;
+                    let dividedByThree = Math.floor((number - 1) / 3)
+                    let dividedByFive = Math.floor((number - 1) / 5)
+                    let commonNumOfNumbersDivisibleByBoth = Math.floor((number - 1) / 15)
+                    return ((3 * dividedByThree * (dividedByThree + 1)) / 2) + ((5 * dividedByFive * (dividedByFive + 1) / 2)) - ((15 *  commonNumOfNumbersDivisibleByBoth * (commonNumOfNumbersDivisibleByBoth + 1)) / 2)
+                }
+            </code></pre>
+
+            <a
+                href="https://www.codewars.com/kata/514b92a657cdc65150000006"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+            </a>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
+            
+            <ul class="projects-list">
+                <li>
+                    <article>
+                        <h3>
+                            <a
+                                href="https://github.com/Tobi189/local-manga-reader-npm-server"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                Local Manga Reader
+                            </a>
+                        </h3>
+
+                        <p>
+                            A local web application for organizing and reading manga.
+                            It supports vertical and horizontal reading modes,
+                            responsive library layouts, custom cover uploads, and
+                            saved reading progress.
+                        </p>
+
+                        <p>
+                            <strong>Technologies:</strong>
+                            JavaScript, HTML, CSS, Node.js
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>
+                            <a
+                                href="https://github.com/Tobi189/snake-game-webapp"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                Full-Stack Snake Game
+                            </a>
+                        </h3>
+                        <p>
+                                A browser-based Snake game featuring user authentication,
+                                customizable gameplay, persistent scores, and a global
+                                leaderboard.
+                        </p>
+
+                        <p>
+                                <strong>Technologies:</strong>
+                                Javascript, HTML, CSS, Canvas, Python, Flask, 
+                                PostgreSQL, Docker
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>
+                            <a
+                                href="https://github.com/Tobi189/job-application-tracker"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Jobtracker
+                            </a>
+                        </h3>
+
+                        <p>
+                            A full-stack application for creating, updating, 
+                            searching, filtering, and tracking job applications
+                            with persistent database storage.
+                        </p>
+
+                        <p>
+                            <strong>Technologies:</strong>
+                            Java, Spring Boot, Thymeleaf, PostgreSQL, Docker
+                        </p>
+                    </article>
+                </li>
+
+
+
+            </ul>
         </section>
 
         <section id="education">

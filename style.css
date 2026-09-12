@@ -80,3 +80,8 @@ footer img {
     align-items: center;
     gap: 10px;
 }
+
+/* pre */
+pre {
+    overflow-x: auto;
+}
