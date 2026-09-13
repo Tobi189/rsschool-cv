@@ -148,3 +148,35 @@ pre {
     object-fit: cover;
     border-radius: 5%;
 }
+
+/* other */
+@media (max-width: 600px) {
+    main {
+        margin: 16px auto;
+        padding: 24px;
+    }
+
+    #about {
+        flex-direction: column;
+    }
+
+    .profile-photo {
+        align-self: center;
+    }
+
+    footer {
+        justify-content: center;
+    }
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+
+section {
+    scroll-margin-top: 60px;
+}
